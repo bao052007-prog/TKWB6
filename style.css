@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    background-color: blue;
+    position: relative;
+}
+
+#logo {
+    font-size: 50px;
+    color: white;
+    width: 25%;
+    padding: 20px;
+}
+
+#login {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: solid 3px;
+    padding: 20px;
+    border-color: white;
+    color: white;
+}
+
+.menu {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu>a {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: blue;
+}
+.main {
+    width: 100%;
+    float: left;
+}
+
+.leftsidebar {
+    background-color: rgb(241, 239, 233);
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.content {
+    width: 75%;
+    float: right;   
+    text-align: center;
+    border: 3px solid #9f9898;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    background-color: white;
+}
+
+.footer {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.leftsidebar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f4e1e1;
+    background-color: white;
+    cursor: pointer;
+    text-align: left;
+}
+.leftsidebar input:hover {
+    background-color: #e0e0e0;
+    border-color: #666;
+}
+
+.content h3 {
+    text-align: left;
+}
+
+.content button {
+    text-align: left;
+    display: block;
+    background-color: aqua;
+    color: white;
+     cursor: pointer;
+}
+
+.hot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+p {
+     font-family: Arial;
+    line-height: 1.5;
+    text-indent: 30px;
+    text-align: justify;
+}
